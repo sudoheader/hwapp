@@ -6,14 +6,9 @@ namespace hwapp
     {
         public static void Main(string[] args)
         {
-            Awesome();
-            writeToTheScreen();
-        }
-        public static void Awesome() {
-            Console.WriteLine("Awesome");
-        }
-        public static void writeToTheScreen() {
-            Console.WriteLine("This is so awesome");
+            int numbers = 10;
+
+            Console.WriteLine(numbers);
         }
     }
 }
