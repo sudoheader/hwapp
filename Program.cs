@@ -4,9 +4,16 @@ namespace hwapp
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Awesome();
+            writeToTheScreen();
+        }
+        public static void Awesome() {
+            Console.WriteLine("Awesome");
+        }
+        public static void writeToTheScreen() {
+            Console.WriteLine("This is so awesome");
         }
     }
 }
