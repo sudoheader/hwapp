@@ -8,8 +8,9 @@ namespace hwapp
         {
             int numbers = 10;
             string letters = "Letters 1234";
+            bool trueFalse = true;
 
-            Console.WriteLine(letters);
+            Console.WriteLine(trueFalse);
             Console.WriteLine(numbers);
         }
     }
