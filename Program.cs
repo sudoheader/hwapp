@@ -9,15 +9,15 @@ namespace hwapp
             int numbers = 1;
             int answers = 2;
 
-            // if(condition)
-            // action
-
-            if(numbers == 2)
-                Console.WriteLine("Yes");
-            else if(answers == 1)
-                Console.WriteLine("Maybe");
-            else
-                Console.WriteLine("No");
+            if(numbers == 1) 
+            {
+                if(answers == 1)
+                    Console.WriteLine("Yes");
+                else if(answers == 2)
+                    Console.WriteLine("Maybe");
+                else
+                    Console.WriteLine("No");
+            }
         }
     }
 }
