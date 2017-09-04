@@ -6,10 +6,13 @@ namespace hwapp
     {
         public static void Main(string[] args)
         {
-            for(int i = 1; i <= 3; i++)
-            {
-                Console.WriteLine("This is: " + i);
-            }
+            int answers = 1;
+            int numbers = 2;
+            
+            if(numbers != answers)
+                Console.WriteLine("Yes");
+            else
+                Console.WriteLine("No");
         }
     }
 }
