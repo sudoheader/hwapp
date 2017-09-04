@@ -12,8 +12,10 @@ namespace hwapp
             // if(condition)
             // action
 
-            if(answers == 1)
-            Console.WriteLine("Yes");
+            if(numbers == 2)
+                Console.WriteLine("Yes");
+            else
+                Console.WriteLine("No");
         }
     }
 }
