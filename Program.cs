@@ -14,6 +14,8 @@ namespace hwapp
 
             if(numbers == 2)
                 Console.WriteLine("Yes");
+            else if(answers == 1)
+                Console.WriteLine("Maybe");
             else
                 Console.WriteLine("No");
         }
