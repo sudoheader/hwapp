@@ -6,17 +6,9 @@ namespace hwapp
     {
         public static void Main(string[] args)
         {
-            int numbers = 1;
-            int answers = 2;
-
-            if(numbers == 1) 
+            for(int i = 1; i <= 3; i++)
             {
-                if(answers == 1)
-                    Console.WriteLine("Yes");
-                else if(answers == 2)
-                    Console.WriteLine("Maybe");
-                else
-                    Console.WriteLine("No");
+                Console.WriteLine("This is: " + i);
             }
         }
     }
