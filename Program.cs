@@ -4,6 +4,7 @@ namespace hwapp
 {
     class Program
     {
+        public const int GlobalScore = 1;
         public static void Main(string[] args)
         {
             int score = 10;
@@ -13,10 +14,10 @@ namespace hwapp
             // Math
             answer = score + lives + 1;
 
-            Console.WriteLine(answer);
+            Awesome();
         }
         public static void Awesome() {
-            Console.WriteLine(score);
+            Console.WriteLine(GlobalScore);
         }
     }
 }
